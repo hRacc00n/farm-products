@@ -1,0 +1,15 @@
+.button {
+    min-width: 260px;
+    padding: 16px 97px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #ffffff;
+    background-color: #fc9b27;
+    border: none;
+
+    &:hover:not(.button:active) {
+        background-color: #cf7b15;
+    }
+}
