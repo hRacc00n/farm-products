@@ -4,7 +4,7 @@ import './logo.css';
 const Logo = () => (
     <a className="logo" href="/">
         <img src={logo} width={44} height={44} alt='Логотип фурмерских продуктов'></img>
-        Фермерские продукты
+        <span className='logo__text'>Фермерские продукты</span>
     </a>
 );
 

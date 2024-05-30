@@ -1,0 +1,21 @@
+.title {
+    margin: 0;
+    font-weight: 700;
+    color: #333333;
+}
+
+.title__big {
+    margin-bottom: 24px;
+    font-size: 44px;
+    line-height: 51px;
+}
+
+.title__default {
+    font-size: 36px;
+    line-height: 41px;
+}
+
+.title__small {
+    font-size: 18px;
+    line-height: 27px;
+}

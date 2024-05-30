@@ -1,0 +1,36 @@
+.about {
+    position: relative;
+    padding: 183px 90px;
+    background-color: #d8ecfe;
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: 177px;
+        bottom: -64px;
+        width: 273px;
+        height: 627px;
+        background-image: url('./../../../assets/about/fermer.svg');
+        background-repeat: no-repeat;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        right: 90px;
+        top: 50%;
+        width: 446px;
+        height: 446px;
+        background-color: #c4e2ff;
+        border-radius: 50%;
+        translate: 0 -50%;
+    }
+}
+
+.about__container {
+    width: 538px;
+}
+
+.about__text {
+    margin: 0;
+}
