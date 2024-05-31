@@ -1,0 +1,19 @@
+.advantages__list {
+    display: flex;
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.advantages__item {
+    width: 540px;
+    min-height: 197px;
+}
+
+.advantages__container {
+    padding: 100px 90px;
+    text-align: center;
+}
