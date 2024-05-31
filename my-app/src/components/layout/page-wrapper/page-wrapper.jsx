@@ -3,11 +3,11 @@ import Header from '../header/header';
 import './page-wrapper.css';
 import Footer from '../footer/footer';
 
-const PageWrapper = () => (
+const PageWrapper = (prop) => (
     <div className="page-wrapper">
         <Header />
         <main className="page-wrapper__main">
-            <MainPage />
+            <MainPage {...prop}/>
         </main>
         <Footer />
     </div>
